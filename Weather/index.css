@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', Courier, monospace;
+  
+}
+.maincontainer {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  /* background-image: url(./src/img/weather_02.jpg); */
+  background: linear-gradient(to right, #68780d, hsl(94, 85%, 16%));
+  /* -webkit-text-fill-color: rgba(27, 118, 203, 0.841); */
+}
+.card {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.068);
+}
+input {
+  outline: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .card {
+    width: -webkit-fill-available;
+  }
+}
